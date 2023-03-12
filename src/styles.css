@@ -41,6 +41,10 @@ h3 {
   line-height: 2.5;
   opacity: 0.7;
 }
+.about-link {
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
 
 .about-paragraphs {
   background: var(--secondary-color);
@@ -52,6 +56,11 @@ h3 {
   text-align: center;
 }
 
+.contact-link {
+  background: var(--accent-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -73,17 +82,6 @@ h3 {
   background: var(--accent-color);
   box-shadow: var(--box-shadow);
   color: white;
-}
-
-.contact-link {
-  background: var(--accent-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-
-.about-link {
-  color: var(--accent-color);
-  border: 1px solid var(--accent-color);
 }
 
 .homepage-link {
